@@ -25687,6 +25687,10 @@ body #shop_mini_cart .foot .buttons a:hover{
 .sidebar-menu .opener i {
     transition: 0.2s;
 }
+.sidebar-menu .opener * {
+    
+    pointer-events: none;
+}
 .sidebar-menu .opener {
     position: unset !important;
     top: 10px;;
@@ -25722,9 +25726,7 @@ body #shop_mini_cart .foot .buttons a:hover{
     display: none;
 }
 
-.sidebar-menu{
-    position: relative;
-}
+
 
 .fancy-sub-menu{
     position: absolute;
@@ -36131,3 +36133,6 @@ input[type="email"], input[type="date"], input[type="search"], input[type="numbe
    .sidebar_menu_horizontal ~ .sidebar_menu_horizontal{
     display: none;
    } 
+   a.cart * {
+    pointer-events: none;
+   }
